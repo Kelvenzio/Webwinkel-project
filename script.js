@@ -19,4 +19,6 @@ $('.knoppen').each( function() {
     })
 });
 
+
+
 $('.paneel').css('display','none')

@@ -2,7 +2,8 @@ body {
     font-family: calibri;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
+    background-image: url(Afbeeldingen/background.jpg);
+    background: 
 }
 
 .paneel.actief {
@@ -10,14 +11,12 @@ body {
 }
 .paneel img {
     max-width: 100%;
-    border-radius: 2%;
+    margin-right: auto;
 }
 .container_12 {
-    height: auto;
-    padding: 2%;
-    border-radius: 2%;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white 
 }
 a {
     text-decoration: none;
@@ -25,21 +24,25 @@ a {
     color: black;
     text-align: center;
 }
-img {
-    height: 200px;
+#foto img{
+    height: 400px;
 }
 h1 {
     text-align: center;
 }
 ul li {    
-    font-size: 20px;
-    border-radius: 10%;
+    font-size: 15px;
 } 
 h2 {
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 }
-.grid_4 {
+
+h2:hover {
+color:lightgrey;
+    
+}
+.grid_5 {
     text-align: center;
 }
 #acme {
@@ -52,10 +55,13 @@ h2 {
     text-align: center;
 }
 #cssmenu {
+    top: 0;
+    display: block;
+    position: relative;
   zoom: 1;
   width: auto;
-  background: #000000;
-  padding: 5px 0;
+  background: #3F250B;
+  padding: 2px 0;
 }
 #cssmenu:before {
   content: '';
@@ -70,12 +76,12 @@ h2 {
     text-decoration: none;
   list-style-type: none;
   display: block;
-  font-size: 15px;
+  font-size: px;
   margin: 0;
-    width:650px;
+    width:600px;
     margin-left: auto;
     margin-right: auto;
-  padding: 5px;
+  padding: 1px;
   border-bottom: 2px solid white;
   zoom: 1;
     
@@ -111,13 +117,22 @@ h2 {
   color: #fff;
 }
 #cssmenu .active a {
-  color: #fff;
+  color: #;
   font-weight: 700;
 }
 #ewa{
     font-family: Broadway;
-    font-size: 30px;
+    font-size: 25px;
 }
 nav {
     top: 0;
+    position: relative;
+    display: block;
 }
+#banner{
+    height: 300px;
+}
+
+
+
+
